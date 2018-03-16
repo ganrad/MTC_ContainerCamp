@@ -32,16 +32,11 @@ Build a Windows 2016 Server Container Host and deploy Windows containers.
 * [Windows Containers on Windows Server](modules/windowscontainers/windows-containers.md)
 
 
-## Module : Setup Docker Swarm and Deploy Some Containers ##
-Deploy Docker with swarm mode, using an acs-machine template to deploy to Azure. Once you have a swarm cluster you will deploy some things to it...
+## Module : Deploy Multi-OS Applications with Docker Enterprise Edition (EE)
 
-* [Deploy a Swarm Mode cluster](modules/swarm/part1/deploy-docker-swarm.md)
+Use Docker EE's capabilities for deploying and managing container deployments with both Swarm and Kubernetes.
 
-
-## Module : Deploy Multicontainer Applications
-Experiment with using docker compose to deploy multi-container applications
-
-* [Deploy multicontainer applications](modules/swarm/part2/multiapp.md)
+* [Deploy Multi-OS Applications with Docker Enterprise Edition (EE)](./modules/docker-ee/readme.md)
 
 
 ## Module : Deploy Containers to Azure aks with Kubernetes
