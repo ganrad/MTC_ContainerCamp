@@ -20,11 +20,11 @@ Docker EE is comprised of several components:
 
 Orchestration is the process of running a container on a cluster node The container orchestration landscape has seen signifcant development in recent years. 
 
-![Docker Swarm Logo](https://d1q6f0aelx0por.cloudfront.net/product-logos/3a29d766-ea80-400c-b981-7f6c02d36fd8-swarm.png | width=150)
+<img alt="Docker Swarm Logo" src="https://d1q6f0aelx0por.cloudfront.net/product-logos/3a29d766-ea80-400c-b981-7f6c02d36fd8-swarm.png" height="150px" />
 
 Docker's first-party orchestrator, [Docker Swarm](https://docs.docker.com/engine/swarm/), is a polished platform for managing the end-to-end lifecycle of container solutions. Its deep integration with Docker Compose files creates an elegant approach to deploying and managing multi-container solutions across a cluster of nodes. Docker Swarm has also supported Windows worker nodes since mid-2017, making it an ideal choice for users new to orchestration or who are running .NET workloads in containers. 
 
-![Kubernetes Logo](https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png | width=150)
+<img alt="Kubernetes Logo" src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" height="150px" />
 
 The [Kubernetes](https://kubernetes.io/) project has achieved significant notoriety due to its advanced capabilities and expansive ecosystem. These advanced features come with added complexity, making Kubernetes an ideal choice for users that are comfortable with orchestration and need its more sophisticated features. Support for Windows worker nodes moved from Alpha to Beta level of support in December 2017, and is expected to reach full support in mid-018. 
 
@@ -49,7 +49,7 @@ To learn more about how [Docker Enterprise Edition](https://www.docker.com/enter
 
 Thanks for participating!
 
-![Lab Image](https://pbs.twimg.com/media/DRoobW4UEAAf-Vp.jpg)
+<img alt="Lab Image" src="https://pbs.twimg.com/media/DRoobW4UEAAf-Vp.jpg:large" />
 
 
 
