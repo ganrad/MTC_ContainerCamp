@@ -32,16 +32,11 @@ Build a Windows 2016 Server Container Host and deploy Windows containers.
 * [Windows Containers on Windows Server](modules/windowscontainers/windows-containers.md)
 
 
-## Module : Setup Docker Swarm and Deploy Some Containers ##
-Deploy Docker with swarm mode, using an acs-machine template to deploy to Azure. Once you have a swarm cluster you will deploy some things to it...
+## Module : Deploy Multi-OS Applications with Docker Enterprise Edition (EE)
 
-* [Deploy a Swarm Mode cluster](modules/swarm/part1/deploy-docker-swarm.md)
+Use Docker EE's capabilities for deploying and managing container deployments with both Swarm and Kubernetes.
 
-
-## Module : Deploy Multicontainer Applications
-Experiment with using docker compose to deploy multi-container applications
-
-* [Deploy multicontainer applications](modules/swarm/part2/multiapp.md)
+* [Deploy Multi-OS Applications with Docker Enterprise Edition (EE)](./modules/docker-ee/readme.md)
 
 
 ## Module : Deploy Containers to Azure aks with Kubernetes
@@ -59,4 +54,17 @@ Experiment with securing containerized application by scanning for vulnerabiliti
 
 * [Securing Containerized Applications](modules/security/README.md)
 
+## Contributing
+
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.microsoft.com.
+
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
