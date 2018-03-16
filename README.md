@@ -36,7 +36,7 @@ Build a Windows 2016 Server Container Host and deploy Windows containers.
 
 Use Docker EE's capabilities for deploying and managing container deployments with both Swarm and Kubernetes.
 
-* [Deploy Multi-OS Applications with Docker Enterprise Edition (EE)](./modules/docker-ee/readme.md)
+* [Deploy Multi-OS Applications with Docker Enterprise Edition (EE)](./modules/docker-ee/README.md)
 
 
 ## Module : Deploy Containers to Azure aks with Kubernetes
