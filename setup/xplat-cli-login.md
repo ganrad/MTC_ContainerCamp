@@ -1,6 +1,6 @@
 # Connect to an Azure subscription from the Azure Command-Line Interface (Azure CLI)
 
-The Azure CLI is a set of open-source, cross-platform commands for working with the Azure platform. This article describes how to connect to your Azure subscription from the Azure CLI to use all of the CLI commands. If you haven't already installed the CLI, see [Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
+The Azure CLI is a set of open-source, cross-platform commands for working with the Azure platform. This article describes how to connect to your Azure subscription from the Azure CLI to use all of the CLI commands. If you haven't already installed the CLI, see [Install the Azure CLI](deploy-linuxjumpbox.md).
 
 ## Use the interactive log in method
 
@@ -49,3 +49,5 @@ My Account #4                                  AzureCloud   00000000-0000-0000-0
 My Account #5                                  AzureCloud   00000000-0000-0000-0000-000000000000  Enabled
 My Account #6                                  AzureCloud   00000000-0000-0000-0000-000000000000  Enabled
 ```
+## Continue
+Next, [install Docker on the jumpbox](setup/azdockerinstall.md)

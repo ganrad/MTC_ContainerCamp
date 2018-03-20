@@ -75,5 +75,6 @@ Insecure Registries:
  127.0.0.0/8
 Live Restore Enabled: false
 ```
-
+## Continue
+Next, [pull down this git repository](setup/gitclone.md)
 
