@@ -140,6 +140,11 @@ cd MTC_ContainerCamp/modules/kubernetes/src/deploy
     ```none
     kubectl get ep web
     ```
+
+## Continue
+Next, we'll explore visualization tools for Kubernetes.
+Continue with the [next section](modules/kuernetes/kubeviz.md)
+
 <!--   Commenting out dashboard until we can solve the remote proxy problem
 ## Task 7: Explore the Kubernetes cluster with the Dashboard
 The Kubernetes Dashboard is web interface that provides general-purpose monitoring and operations for Kubernetes clusters.  You can access this dashboard from your local machine via a proxy tunnel created by the *kubectl* tool.
@@ -155,7 +160,8 @@ The Kubernetes Dashboard is web interface that provides general-purpose monitori
      az aks browse -n [Cluster Name] -g [Resource Group] 
     ```
 
--->
+
 ## Managing your k8s cluseter using Cabin app ##
  Follow this blog post to install and configure Cabin to manage your k8s cluster on your iOS or Android device:
  [Managing Azure Kubernetes Managed Service via Cabin app](https://blogs.msdn.microsoft.com/alimaz/2017/10/31/managing-azure-kubernetes-managed-service-aks-using-cabin-app/)
+-->
