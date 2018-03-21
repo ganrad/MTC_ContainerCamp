@@ -3,6 +3,8 @@
 ## Task 1:  Simple Kubernetes Visualizer
 In this task, you will run a simple visualization tool to see nodes & pods deployed on your cluster.
 
+*This is based on code from https://github.com/raghur/gcp-live-k8s-visualizer*
+
 1. First, we need to open port 8001 as this will be used for the web visualizers.  From your jumpbox command line, run: *(substituting the name of your jumpbox & the resource group)*
 ```
 az vm open-port --port 8001 --name jumpbox --resource-group jumpboxrg

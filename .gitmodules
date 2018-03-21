@@ -1,0 +1,3 @@
+[submodule "modules/kubernetes/src/viz"]
+	path = modules/kubernetes/src/viz
+	url = https://github.com/raghur/gcp-live-k8s-visualizer
