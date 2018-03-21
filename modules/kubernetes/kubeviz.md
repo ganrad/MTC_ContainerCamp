@@ -24,7 +24,7 @@ az vm list-ip-addresses --name jumpbox --resource-group jumpboxrg
 In the dashboard, you will see a simple graphical representation of the cluster nodes, deployments, and pods.
 
 5. Try scaling the deployment and watch the dashboard.  From your shell, enter:
-```
+```bash
 kubectl scale deployment/web --replicas=1
 ``` 
 <!--
@@ -39,6 +39,11 @@ kill %1
 The Kubernetes Dashboard is web interface that provides general-purpose monitoring and operations for Kubernetes clusters.  We can access the dashboard using the same proxy that we enabled in step 1.
 
 2. Open the browser on your machine and navigate to [http://<IP_address_of_jumpbox>:8001/ui/](http://IP_address_of_jumpbox:8001/ui/)
+
+3. Once you're done, go back into your terminal session & terminate the dashboard proxy:
+```bash
+kill %1
+```
 
 ## Task 3: (Optional) Managing your k8s cluster using Cabin app ##
  Follow this blog post to install and configure Cabin to manage your k8s cluster on your iOS or Android device:
