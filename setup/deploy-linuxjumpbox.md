@@ -61,3 +61,7 @@ In the list the is displayed, enter the number for the choice `table` and hit en
 You will be prompted to enable the log file.  Enter your choice and hit enter. 
 You will be prompted to enable data collection to send to Microsoft.  Enter your choice and hit enter.
 Your settings will be saved.
+
+
+## Continue
+Next, [log into Azure using the cli.](setup/xplat-cli-login.md)

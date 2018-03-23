@@ -1,11 +1,19 @@
-# Install Docker using Azure Extensions
-We're going to use the Azure cli to install Docker on the jumpbox using the Azure extensions feature
-
-Run the following (substituting for your jumpbox vm name):
+# Install Docker
+We're going to install Docker on our Ubuntu server by pulling the appropriate bits from Docker's repository.  Run the following commands to install the pre-reqs:
+```bash
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 ```
- az vm extension set --vm-name jumpbox -g jumpboxrg \
- --name DockerExtension  --publisher Microsoft.Azure.Extensions --version 1.2.2
- ```
+Next, run the following to install the docker engine:
+```bash
+sudo apt-get update
+sudo apt-get install docker-ce
+```
+Now for post-installation steps:
+```bash
+sudo usermod -aG docker $USER
+````
 
 Docker is now installed!  Before we can use it, we need to log out and log in:
 
@@ -28,7 +36,7 @@ Containers: 1
  Paused: 0
  Stopped: 1
 Images: 1
-Server Version: 17.05.0-ce
+Server Version: 17.12.1-ce
 Storage Driver: aufs
  Root Dir: /var/lib/docker/aufs
  Backing Filesystem: extfs
@@ -67,5 +75,6 @@ Insecure Registries:
  127.0.0.0/8
 Live Restore Enabled: false
 ```
-
+## Continue
+Next, [pull down this git repository](setup/gitclone.md)
 
