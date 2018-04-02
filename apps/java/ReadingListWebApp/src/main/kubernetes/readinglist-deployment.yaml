@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ravitella/docker-springboot-readinglistapplication:latest
+        image: onemtc/springboot-readinglistapplication:latest
         ports:
          - containerPort: 7070
         env:
@@ -22,6 +22,6 @@ spec:
          - name: SPRING_DATASOURCE_PASSWORD
            value: password
       - name: api
-        image: ravitella/docker-springboot-recommendationservice:latest
+        image: onemtc/springboot-recommendationservice:latest
         ports:
          - containerPort: 8080

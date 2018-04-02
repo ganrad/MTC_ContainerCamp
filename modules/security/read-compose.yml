@@ -12,7 +12,7 @@ services:
     container_name: read-mysql
 
   api:
-    image: "ravitella/docker-springboot-recommendationservice:latest"
+    image: "onemtc/springboot-recommendationservice:latest"
     environment:
       AQUA_APP: READ-API
     container_name: read-api
@@ -21,7 +21,7 @@ services:
     depends_on:
       - mysql
       - api
-    image: "ravitella/docker-springboot-readinglistapplication:latest"
+    image: "onemtc/springboot-readinglistapplication:latest"
     ports:
       - "81:7070"
     environment:

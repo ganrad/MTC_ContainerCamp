@@ -57,7 +57,7 @@
 
     </dependencies>
     <properties>
-       <docker.image.prefix>ravitella</docker.image.prefix>
+       <docker.image.prefix>onemtc</docker.image.prefix>
 </properties>
 
     <build>

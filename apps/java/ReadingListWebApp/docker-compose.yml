@@ -9,13 +9,13 @@ services:
       MYSQL_PASSWORD: password
    
   api:
-    image: "ravitella/docker-springboot-recommendationservice:latest"
+    image: "onemtc/springboot-recommendationservice:latest"
       
   web:
     depends_on:
       - mysql
       - api
-    image: "ravitella/docker-springboot-readinglistapplication:latest"
+    image: "onemtc/springboot-readinglistapplication:latest"
     ports:
       - "80:7070"
     environment:
