@@ -54,7 +54,7 @@ Experiment with using docker compose to deploy multi-container applications
 * [Deploy Containers to Azure aks with Kubernetes](modules/kubernetes/kubernetes.md)
 
 
-## Module : Advanced DevOps (CI/CD), Microservices and Containers Hands-on Lab.
+## Module : Advanced DevOps (CI/CD), Microservices and Containers Hands-on Lab
 * [Build and Deploy a containerized Java Springboot Microservice on AKS](https://github.com/ganrad/k8s-springboot-data-rest.git)
 
 
