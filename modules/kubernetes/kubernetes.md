@@ -163,7 +163,6 @@ The Kubernetes Dashboard is web interface that provides general-purpose monitori
     ```none
     kubectl proxy -p 8001
     ```
-2. Open the browser on you machine and navigate to [http://localhost:8001/ui](http://localhost:8001/ui)
 2. Open the browser on you machine and navigate to [http://localhost:8001/api/v1/namespaces/kube-system/services/http:kubernetes-dashboard:/proxy/](http://localhost:8001/api/v1/namespaces/kube-system/services/http:kubernetes-dashboard:/proxy/)
 
 3. You can also try:
